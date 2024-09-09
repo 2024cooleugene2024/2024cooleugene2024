@@ -19,3 +19,11 @@
   - :zap: In my free time, I solve problems, learn to write code, and read technical articles.
     
 </div>  
+
+  <div align="center">
+    
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=2024cooleugene2024&theme=dark&background=000000)](https://git.io/streak-stats)
+
+</div>
+
+
