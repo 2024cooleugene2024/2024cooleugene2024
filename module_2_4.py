@@ -19,6 +19,6 @@ for i in range(len(numbers)):
         primes.append(n)
     else:
         not_primes.append(n)
-is_prime = True  # признак простого числа
+is_prime = True
 print('Вот они простые числа ', primes)
 print('А вот тут составные числа', not_primes)
