@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]  # исходный список
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 n = 0
 primes = []
 not_primes = []
@@ -19,6 +19,6 @@ for i in range(len(numbers)):
         primes.append(n)
     else:
         not_primes.append(n)
-is_prime = True  # признак простого числа
+is_prime = True
 print('Вот они простые числа ', primes)
 print('А вот тут составные числа', not_primes)
