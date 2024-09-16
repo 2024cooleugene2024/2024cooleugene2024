@@ -6,6 +6,8 @@ def get_matrix(n, m, value):
             matrix[i].append(value)
     print(matrix)
     return matrix
+
+
 n = int(input('Введите количество строк матрицы: '))
 m = int(input('Введите количество столбцов матрицы: '))
 value = input(f'Введите значения матрицы: ')
@@ -19,3 +21,6 @@ matrix = get_matrix(n, m, value)
 # print(result1)
 # print(result2)
 # print(result3)
+
+
+
