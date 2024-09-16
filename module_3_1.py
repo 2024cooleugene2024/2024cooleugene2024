@@ -7,7 +7,7 @@ def count_calls():
 
 
 def string_info(string):
-    count_calls()  # Увеличиваем счётчик вызовов
+    count_calls()
     length = len(string)
     upper_case = string.upper()
     lower_case = string.lower()
@@ -15,7 +15,7 @@ def string_info(string):
 
 
 def is_contains(string, list_to_search):
-    count_calls()  # Увеличиваем счётчик вызовов
+    count_calls()
     return string.lower() in (item.lower() for item in list_to_search)
 
 
