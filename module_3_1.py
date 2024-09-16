@@ -7,25 +7,16 @@ def count_calls():
 
 
 def string_info(string):
-    line = str(string)
-    result = (len(line), line.upper(), line.lower())
-    count_calls()
-    return result
+    count_calls()  # Увеличиваем счётчик вызовов
+    length = len(string)
+    upper_case = string.upper()
+    lower_case = string.lower()
+    return length, upper_case, lower_case
 
 
 def is_contains(string, list_to_search):
-    global result
-    string = str(string).lower()
-    list_to_search = list(list_to_search)
-    count_calls()
-    for i in range(len(list_to_search)):
-        if str(list_to_search[i]).lower() == string:
-            result = True
-            break
-        else:
-            result = False
-            continue
-    return result
+    count_calls()  # Увеличиваем счётчик вызовов
+    return string.lower() in (item.lower() for item in list_to_search)
 
 
 print(string_info('Capybara'))
