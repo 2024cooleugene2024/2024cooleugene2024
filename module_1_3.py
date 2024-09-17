@@ -1,8 +1,16 @@
-name = "Eugene"
-print('Name'':', name)
-age = 39
-print('Age'':', age)
+# Переменная name, строка
+name = "Ваше имя"
+print("Name:", name)
+
+# Переменная age, целое число
+age = 25  # Замените на свой возраст
+print("Age:", age)
+
+# Изменение значения переменной age
 age = age + 1
-print("Age"':', age)
+print("New Age:", age)
+
+# Переменная is_student, логическое значение
 is_student = True
-print('Is_student'':', is_student)
+print("Is Student:", is_student)
+
