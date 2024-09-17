@@ -1,10 +1,28 @@
-immutable_var = 1, 2, 3, 4, True, "string"
-print(immutable_var)
+# Создаем кортеж, неизменяемая переменная
+immutable_var = (1, 2, 'a', 'b')
+print("Immutable tuple:", immutable_var)
 
-immutable_var[0] = 200  # Кортеж не поддерживает обращение по элементам
-print(immutable_var)
+# Попытка изменить элементы кортежа (это вызовет ошибку)
+try:
+    immutable_var[0] = 100  # Это невозможно, кортежи неизменяемы
+except TypeError as e:
+    print("Ошибка:", e)
 
-mutable_list = [1, 2, "melon", "peach"]
-print(mutable_list)
-mutable_list[2] = "banana"
-print(mutable_list)
+# Кортежи неизменяемы, поэтому изменить отдельные элементы напрямую нельзя.
+
+# Создаем список, изменяемая переменная
+mutable_list = [1, 2, 'a', 'b']
+print("Original list:", mutable_list)
+
+# Изменяем элементы списка
+mutable_list[0] = 100
+mutable_list.append('Modified')
+
+# Выводим измененный список
+print("Modified list:", mutable_list)
+
+# Объяснение:
+# Кортеж (tuple) является неизменяемым объектом, поэтому попытка изменить его элемент вызовет ошибку TypeError.
+# Это продемонстрировано в блоке try-except.
+# Списки (list) являются изменяемыми объектами, поэтому мы можем
+# изменять их элементы, добавлять новые значения и изменять существующие.
