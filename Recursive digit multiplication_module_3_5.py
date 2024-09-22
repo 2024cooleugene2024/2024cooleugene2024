@@ -18,5 +18,5 @@ def get_multiplied_digits(number):
 
 
 # Пример использования:
-print(get_multiplied_digits(240))  # Вывод: 8
+print(get_multiplied_digits(370))  # Вывод: 8
 print(get_multiplied_digits(40203))  # Вывод: 24
